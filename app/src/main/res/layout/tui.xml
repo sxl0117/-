@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_tui"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/text_tui"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_tui"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/title_tui"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="关注"
+        android:background="#DA4C7C"
+        android:id="@+id/btn_tui"
+        android:layout_toRightOf="@+id/title_tui"/>
+
+</RelativeLayout>
